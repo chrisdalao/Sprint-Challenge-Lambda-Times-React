@@ -29,9 +29,23 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+Proptypes are used to type check the data being passed arround as props. With all the data that's being passed around in different components - the components need to know what datatype to expect for the data that's being passed into it. It's very important but it's mostly important when building on top of large applications - data types need to match throughout the app and Proptypes allow a developer to find the errors regarding datatypes, if there is one.
+
 - [ ] Describe a life-cycle event in React?
+
+a life-cycle event is basically a phase a component goes through. Whether it be Mounting, Updating or Unmounting - each one of those are a phase in a component's life.
+
 - [ ] Explain the details of a Higher Order Component?
+
+A Higher Order Component is used to reuse another component - it allows developers to not repeat themselves and instead use what you've built or even encourage building reusable components. A Higher Order Components as basically a component that takes in compenents as arguements - from there you can use the HOC to manipulate the children component's data - you can decide what compenent to render - you can nearly do anything but the most important detail is that it's a component at the end of the day - just the Higher Order kind.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+well, there's inline styling, the traditional styling in css files or using styled components.
+personally I think inline styling is beneficial when you are changing a color or a text-decoration, it's only beneficial when you're changing one property of that element.
+the traditional way of styling components is the most used from what I've seen and it's the best just because you can apply it in any environment.
+Using styled components is actually just styling your compenents using JS. it's beneficial because you can somewhat style component elements on the fly as opposed to going to another file but in my opionion it looks a little messy. I personally like to keep my code separated go the traditional route.
 
 ## Project Setup
 
