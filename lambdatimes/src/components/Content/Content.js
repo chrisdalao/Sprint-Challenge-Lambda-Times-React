@@ -18,12 +18,14 @@ export default class Content extends Component {
 
   componentDidMount() {
     this.setState({
+      // Once the component has mounted, get the data and reflect that data on the state.
       tabs: tabData,
       cards: cardData
     })
   }
 
   changeSelected = tab => {
+    debugger
     // this function should take in the tab and update the state with the new tab.
     this.setState({ selected: tab });
   };

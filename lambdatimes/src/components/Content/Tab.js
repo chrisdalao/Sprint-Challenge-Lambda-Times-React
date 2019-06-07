@@ -4,7 +4,7 @@ const Tab = props => {
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
       if they match, the className should be: 'tab active-tab', 
       if it is not it should just be 'tab'*/
-  console.log(props)
+  console.log(props.tab)
   return (
     <div
       className={props.tab === props.selectedTab ? 'tab active-tab' : 'tab'}
